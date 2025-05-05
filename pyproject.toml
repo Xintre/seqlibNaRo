@@ -1,0 +1,32 @@
+[build-system]
+requires = ['setuptools>=79.0', 'wheel>=0.45']
+build-backend = 'setuptools.build_meta'
+[project]
+name = 'seqlibNaRo'
+version = '0.1.0'
+authors = []
+maintainers = []
+description = 'DNA seq lib'
+readme = 'README.md'
+license = 'GPL-3.0-or-later'
+license-files = [ 'LICENSE*' ]
+keywords = [
+ 'biological sequences', 'nucleotide sequences',
+ 'sequence manipulation', 'bioinformatics' ]
+classifiers = [
+ 'Development Status :: 4 - Beta',
+ 'Intended Audience :: Science/Research',
+ 'Intended Audience :: Developers',
+ 'Operating System :: OS Independent',
+ 'Programming Language :: Python :: 3',
+ 'Programming Language :: Python :: 3 :: Only',
+ 'Topic :: Scientific/Engineering :: Bio-Informatics',
+ 'Topic :: Scientific/Engineering :: Information Analysis',
+ 'Topic :: Software Development :: Libraries :: Python Modules'
+]
+requires-python = '>=3.8'
+dependencies = [
+ 'numpy==1.26.4'
+]
+Homepage = 'https://github.com/githubusername/seqlibFiLa'
+Repository = 'https://github.com/githubusername/seqlibFiLa'

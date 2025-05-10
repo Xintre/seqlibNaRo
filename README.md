@@ -4,7 +4,7 @@ The `seqlibNaRo` library provides functionality for handling DNA sequences using
 
 # Library installation using _pip_
 
-Installation of the `seqlibANaR` library with pip is quite straightforward:
+Installation of the `seqlibNaRo`:
 
 ```Bash
 pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple seqlibNaRo
@@ -15,7 +15,7 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 Learn how to use the `seqlibNaRo` library with examples provided below.
 
 ```Python
-from seqlibFiLa import DNASeq
+from seqlibNaRo import DNASeq
 
 # Example 1: Load from file
 seqs = DNASeq.from_file("example.fasta")
@@ -34,7 +34,7 @@ combined = seqs["seq1"] + seqs["seq2"]
 print(combined)
 ```
 
-# The `Seq` class in details
+# The `DNASeq` class in details
 
 The DNASeq class represents a single DNA sequence.
 Methods:

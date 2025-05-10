@@ -3,7 +3,7 @@ requires = ['setuptools>=79.0', 'wheel>=0.45']
 build-backend = 'setuptools.build_meta'
 [project]
 name = 'seqlibNaRo'
-version = '0.3.0'
+version = '0.5.1'
 authors = []
 maintainers = []
 description = 'DNA seq lib'

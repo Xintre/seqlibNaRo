@@ -1,7 +1,7 @@
 from typing import List, Self
 import numpy as np
 
-class DNASeq:
+class Seq:
     """
     A class to represent a DNA sequence using IUPAC nucleotide code.
     Supports reverse-complementation, slicing using GenBank notation,

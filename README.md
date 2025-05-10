@@ -15,10 +15,10 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 Learn how to use the `seqlibNaRo` library with examples provided below.
 
 ```Python
-from seqlibNaRo import DNASeq
+from seqlibNaRo.Seq import Seq
 
 # Example 1: Load from file
-seqs = DNASeq.from_file("example.fasta")
+seqs = Seq.from_file("example.fasta")
 print(seqs["seq1"])  # FASTA formatted output
 
 # Example 2: Get reverse complement
@@ -34,12 +34,12 @@ combined = seqs["seq1"] + seqs["seq2"]
 print(combined)
 ```
 
-# The `DNASeq` class in details
+# The `Seq` class in details
 
-The DNASeq class represents a single DNA sequence.
+The Seq class represents a single DNA sequence.
 Methods:
 
-- `from_file(file_path: str) -> List[DNASeq]` – loads multiple sequences from a FASTA file and returns a dictionary of DNASeq objects.
+- `from_file(file_path: str) -> List[Seq]` – loads multiple sequences from a FASTA file and returns a dictionary of Seq objects.
 
 - `__str__()` – returns the sequence in FASTA format.
 
@@ -49,13 +49,13 @@ Methods:
 
 - `__add__(self, other)` – concatenates two sequences.
 
-- `revcmpl(self)` – returns the reverse complement as a new DNASeq object.
+- `revcmpl(self)` – returns the reverse complement as a new Seq object.
 
 - `copy(self)` – returns a deep copy of the sequence object.
 
 ## Initialisation
 
-`DNASeq(seqid: str, title: str, seq: str)`
+`Seq(seqid: str, title: str, seq: str)`
 
 ## Indexing and slicing
 

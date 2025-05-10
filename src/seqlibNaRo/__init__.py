@@ -6,7 +6,7 @@ Short description
 
 from seqlibNaRo.Seq import Seq
 
-__version__ = '0.3.0'
+__version__ = '0.5.1'
 __license__ = 'GPL-3.0-or-later'
 __status__  = 'beta'
 __author__  = 'First1 Last1'
@@ -22,4 +22,3 @@ __all__ = [
     '__creadits__',
     'Seq'
 ]
-
